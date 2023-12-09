@@ -110,6 +110,21 @@ body {
 
         }
 
+            .insta:hover {
+                background-image: url(./img/insta2.png);
+                animation: face 0.2s ease forwards;
+            }
+
+            @keyframes face {
+                0% {
+                    background-size: 100%;
+                }
+                
+                100% {
+                    background-size: 110%;
+                }
+            }
+
         .YT {
             display: block;
             width: 90px;
@@ -121,6 +136,23 @@ body {
             background-position: center;
 
         }
+
+            .YT:hover {
+                background-image: url(./img/YT2.png);
+                animation: face 0.2s ease forwards;
+            }
+
+            @keyframes face {
+                0% {
+                    background-size: 100%;
+                }
+                
+                100% {
+                    background-size: 110%;
+                }
+            }
+
+
 
     .copyright {
         background-color: #3e526b;
