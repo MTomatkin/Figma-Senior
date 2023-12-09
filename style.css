@@ -83,6 +83,21 @@ body {
 
         }
 
+            .fb:hover {
+                background-image: url(./img/fb2.png);
+                animation: face 0.2s ease forwards;
+            }
+
+            @keyframes face {
+                0% {
+                    background-size: 100%;
+                }
+                
+                100% {
+                    background-size: 110%;
+                }
+            }
+
         .insta {
             display: block;
             width: 47px;
